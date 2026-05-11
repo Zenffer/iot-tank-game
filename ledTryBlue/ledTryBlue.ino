@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN    5    // Change to your LED data pin
-#define LED_COUNT  1    // Number of LEDs in the strip or module
+#define LED_COUNT 10    // Number of LEDs in the strip or module
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
